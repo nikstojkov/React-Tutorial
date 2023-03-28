@@ -4,10 +4,19 @@ import About from "./components/About"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 
+// TODO: add background image into container from ./images
+
 const Container = styled.div`
+  color: white;
   height: 100vh;
-  background-color: #1338BE;
-`
+  scroll-snap-type: y mandatory;
+  scroll-behaviour: smooth;
+  overflow-y: auto;
+  scrollbar-width: none;
+  &::-webkit-scrollbar{
+    display:none;
+  }
+`;
 
 function App() {
 
