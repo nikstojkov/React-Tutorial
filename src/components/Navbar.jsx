@@ -13,7 +13,7 @@ background-color: rebeccapurple;
 `;
 
 const Links = styled.div``;
-const Logo = styled.img ``;
+const Logo = styled.img``;
 const List = styled.ul``;
 const ListItem = styled.li``;
 const Button = styled.button``;
@@ -27,7 +27,7 @@ const Navbar = () => {
     <Section>
       <Container>
       <Links></Links>
-      <Logo></Logo>
+      <Logo src="../../Images/logo.png" />
       <List>
         <ListItem>Home</ListItem>
         <ListItem>About</ListItem>
@@ -35,7 +35,7 @@ const Navbar = () => {
         <ListItem>Contact</ListItem>
       </List>
       <Icons>
-        <Icon></Icon>
+        <Icon src='../../Images/search.png' />
         <Button>Hire me now</Button>
       </Icons>
       </Container>
