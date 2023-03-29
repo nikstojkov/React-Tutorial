@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Section = styled.div`
+  width: 100%;
   display: flex;
   justify-content: center;
   color: black;
@@ -9,7 +10,7 @@ const Section = styled.div`
 `;
 
 const Container = styled.div`
-width: 80%;
+width: 85%;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -30,6 +31,7 @@ const List = styled.ul`
   display: flex;
   gap: 20px;
   list-style: none;
+  color: white;
 `;
 const ListItem = styled.li`
   cursor: pointer;
@@ -38,9 +40,10 @@ const ListItem = styled.li`
 const Button = styled.button`
   width: 100px;
   padding: 10px;
-  background-color: blue;
+  background-color: lightblue;
   color: white;
-  border-radius: 2px;
+  border-radius: 10px;
+  cursor: pointer;
 `;
 
 const Icons = styled.div`
