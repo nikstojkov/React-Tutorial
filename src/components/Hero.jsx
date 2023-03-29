@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Navbar from './Navbar'
 
 const Section = styled.div`
-  height: 85vh;
+  height: 95vh;
   background-color: #1338BE;
   scroll-snap-align: center;
   display: flex;
