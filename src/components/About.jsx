@@ -43,7 +43,7 @@ const Description = styled.p`
   color: lightgray;
 `;
 const Button = styled.button`
-  width: 100px;
+  width: 120px;
   padding: 10px;
   background-color: fuchsia;
   color: white;
@@ -62,7 +62,7 @@ const Right = styled.div`
   gap: 20px;
 `;
 
-const Hero = () => {
+const About = () => {
   return (
     <Section>
       <Container>
@@ -70,17 +70,20 @@ const Hero = () => {
           {/* 3d model */}
         </Left>
         <Right>
-          <Title>Think. Make. Solve.</Title>
+          <Title>Think outside the box.</Title>
           <WhatWeDo>
             <Line src="../../Images/line.png"/>
-            <Text>What We Do</Text>
+            <Text>Who I am.</Text>
           </WhatWeDo>
-          <Description>We enjoy creaing wonderful and human-centred digital experiences.</Description>
-          <Button>Learn more</Button>
+          <Description>A recent Web Development bootcamp graduate,
+           looking to create tools that people can use,
+           connect with the wder world of tech,
+           keep learning</Description>
+          <Button>See my projects</Button>
         </Right>
       </Container>
     </Section>
   )
 }
 
-export default Hero
+export default About
