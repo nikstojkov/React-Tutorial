@@ -86,18 +86,21 @@ const Text = styled.h2`
   transform: translateY(-150px);
 `;
 
+const handleSubmit = event => {
+  event.preventDefault()
+}
 
 const Contact = () => {
   return (
     <Section>
       <Container>
         <Left>
-          <Form>
+          <Form onSubmit={handleSubmit}>
             <Title>Contact Us</Title>
             <Input placeholder="Name" />
             <Input placeholder="Email" />
             <TextArea placeholder='Write Your Message' rows={10}/>
-            <Button>Send</Button>
+            <Button type="submit">Send</Button>
           </Form>
         </Left>
         <Right>
