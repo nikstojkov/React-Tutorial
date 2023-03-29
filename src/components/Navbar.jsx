@@ -40,9 +40,10 @@ const ListItem = styled.li`
 const Button = styled.button`
   width: 100px;
   padding: 10px;
-  background-color: lightblue;
+  background-color: fuchsia;
   color: white;
   border-radius: 10px;
+  border: none;
   cursor: pointer;
 `;
 

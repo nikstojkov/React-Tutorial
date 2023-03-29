@@ -10,7 +10,7 @@ const Section = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-`
+`;
 
 const Container = styled.div`
   height: 100vh;
@@ -41,15 +41,49 @@ const WhatWeDo = styled.div`
 const Line = styled.img`
   height: 5px;
 `;
-const Text = styled.div``;
-const Description = styled.p``;
-const Button = styled.button``;
+
+const Text = styled.h2`
+  color: white;
+`;
+const Description = styled.p`
+  font-size: 24px;
+  color: lightgray;
+`;
+const Button = styled.button`
+  width: 100px;
+  padding: 10px;
+  background-color: fuchsia;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+`;
 
 
 const Right = styled.div`
-  flex: 9;
+  flex: 3;
+  position: relative;
+
 `;
-const Img = styled.img``;
+const Img = styled.img`
+  width: 800px;
+  height: 600px;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  animation: animate 2s infinite ease alternate;
+
+  @keyframes animate {
+    to{
+      transform: translateY(20px);
+    }
+  }
+`;
 
 const Hero = () => {
   return (
@@ -60,7 +94,7 @@ const Hero = () => {
           <Title>Think. Make. Solve.</Title>
           <WhatWeDo>
             <Line src="../../Images/line.png"/>
-            <Text></Text>
+            <Text>What We Do</Text>
           </WhatWeDo>
           <Description>We enjoy creaing wonderful and human-centred digital experiences.</Description>
           <Button>Learn more</Button>
