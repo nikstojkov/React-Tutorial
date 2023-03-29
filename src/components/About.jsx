@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Section = styled.div`
-  height: 85vh;
+  height: 95vh;
   background-color: rebeccapurple;
   scroll-snap-align: center;
   display: flex;

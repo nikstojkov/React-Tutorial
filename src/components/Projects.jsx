@@ -10,7 +10,7 @@ const data = [
 ];
 
 const Section = styled.div`
-  height: 75vh;
+  height: 90vh;
   background-color: #8ea4f4;
   scroll-snap-align: center;
   display: flex;
@@ -44,7 +44,7 @@ const ListItem = styled.li`
   -webkit-text-stroke: 1px white;
   position: relative;
   /* transition: 30 ease-in-out; */
-  
+
 
   ::after{
     content: "${(props)=>props.text}";
