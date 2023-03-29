@@ -88,6 +88,7 @@ const Text = styled.h2`
 
 const handleSubmit = event => {
   event.preventDefault()
+  console.log(event)
 }
 
 const Contact = () => {
