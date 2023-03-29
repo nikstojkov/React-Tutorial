@@ -11,7 +11,7 @@ const Container = styled.div`
   color: white;
   height: 100vh;
   scroll-snap-type: y mandatory;
-  scroll-behaviour: smooth;
+  scroll-behavior: smooth;
   overflow-y: auto;
   scrollbar-width: none;
   &::-webkit-scrollbar{
